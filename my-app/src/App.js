@@ -4,12 +4,14 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import EventsClassComponent from './components/EventsClassComponent';
 import EventsFunctional from './components/EventsFunctional';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 function App() {
   return (
     <div className="App">
-      <EventsClassComponent/>
-      <EventsFunctional/>
+      <ConditionalRenderingClass/>
+      <ConditionalRenderingFunctional connected={false}/>
     </div>
   );
 }
