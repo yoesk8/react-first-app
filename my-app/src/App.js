@@ -10,11 +10,12 @@ import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import RenderingLists from './components/RenderingLists';
 import LifeCycleCDM from './components/LifeCycleCDM';
+import LifeCycleCDU from './components/LifeCycleCDU';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleCDM/>
+      <LifeCycleCDU/>
     </div>
   );
 }
